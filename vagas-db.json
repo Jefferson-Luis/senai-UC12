@@ -1,0 +1,32 @@
+{
+  "vagas": [
+    {
+      "id": 1,
+      "nome": "Desenvolver Front End Jr",
+      "foto": "foto1.jpg",
+      "descricao": "Manter os aplicativos existentes, ajustando, melhorando ou corrigindo seu funcionamento, considerando usabilidade, desempenho, recursos, e outros aspectos; Criar ou manter qualquer documentação das implementações conforme política estabelecida pela empresa; Manter-se informado sobre novas tecnologias do mercado visando sua adequação às necessidades de negócio da empresa;",
+      "salario": 5000
+    },
+    {
+      "id": 2,
+      "nome": "Desenvolver BackEnd Pleno",
+      "foto": "foto2.jpg",
+      "descricao": " Conhecimento em HTML5, CSS3, JavaScript, React Native, Flutter;Experiência com ferramentas para controle de versão (Git);Conhecimento em Banco de Dados relacionais (SQL, DB2); Boa capacidade de planejamento e organização;Raciocínio lógico e analítico;Gostar de inovação e conhecer as metodologias ágeis;Já ter utilizado framework ou geradores de códigos.Diferencial: Experiência com sistemas de empréstimos, consignações e/ou meios de pagamentos;Conhecer ou já ter atuado com linguagens Low Code ou similar.",
+      "salario": 13000
+    },
+    {
+      "id": 3,
+      "nome": "Desenvolver Fullstack Senior",
+      "foto": "foto3.jpg",
+      "descricao": "Principais responsabilidades, Básico PHP, Javascript, HTML5, CSS,Criação de sites responsivo conhecimento em código semântico (SEO), Desejável conhecimento em Wordpress, Conhecimento em versionamento de projetos utilizando GIT",
+      "salario": 10000
+    },
+    {
+      "id": "4",
+      "nome": "dçdçdçç",
+      "foto": "4",
+      "descricao": "kdkdk",
+      "salario": "0111"
+    }
+  ]
+}

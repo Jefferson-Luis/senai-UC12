@@ -1,15 +1,27 @@
-Sobre as ferramentas utilizadas:
+# SenaiUC12
 
-Github:
-É um sistema de controle de versionamento. Existem várias vantagens desde atualizar e manter controle de versões de projetos, até contribuição de várias pessoas no desenvolvimento de um projeto. É possível que seja um projeto particular ou de uma empresa, em que os funcionários podem desenvolver o projeto em equipe sem ter o problema de um programador desenvolver algo diferente de outro, deixando assim, tudo centralizado.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.3.
 
-Angular:
-É uma framework desenvolvida com linguagem Javascript ou Typescript (Superset do Javascript), com o foco de desenvolver o Front End de Web App, buscando exibir o design do projeto ou consumir API pra exibir o resultado do BackEnd.
+## Development server
 
-Critério de Avaliação
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-Publicar link do GitHub
-Utilizar CSS para mudar o design 
-Organizar layout.
-Rodar corretamente utilizando o Angular, quando baixado e executado.
-Ter a API (arquivo em formato json com as vagas), caso contrário não será possível testar sua aplicação. 
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
