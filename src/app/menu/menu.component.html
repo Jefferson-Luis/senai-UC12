@@ -1,1 +1,68 @@
-<p>menu works!</p>
+<nav class="navbar navbar-default navbar-fixed-top">
+
+</nav>
+
+<div class="jumbotron text-center">
+  <h1>Vagas Jef's</h1>
+  <p>Sua vagas está aqui !</p>
+  <form>
+    <div class="input-group">
+      <input type="email" class="form-control" size="50" placeholder="Pesquisa de vaga " required>
+      <div class="input-group-btn">
+        <button type="button" class="btn btn-danger listarVagas()">Pesquisa</button>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <img src="assets\imag\vagas\" class="w3-image w3-greyscale-min" style="width:10%">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a routerLink="/app-mural-vagas">Vagas</a></li>
+            <li><a routerLink="painel-vagas"></a></li>
+            <li><a href="">PORTFOLIO</a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="contato.html">CONTATO</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+
+
+<!-- Container (Portfolio Section) -->
+<div id="portfolio" class="container-fluid text-center bg-grey">
+  
+  <h4>
+
+    <div class="container">
+      <h2>Cadastro de vagas</h2>
+      <form action="/action_page.php">
+        <div class="form-group">
+          <label for="id">Id</label>
+          <input type="text" class="form-control" id="id" placeholder="Informe o id:" name="id" [(ngModel)]="vaga.id"><br>
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control" id="pwd" placeholder="Informe o nome:" name="nome"
+            [(ngModel)]="vaga.nome"><br>
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control" id="id" placeholder="Informe a foto:" name="foto"
+            [(ngModel)]="vaga.foto"><br>
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control" id="pwd" placeholder="Descreva:" name="descricao"
+            [(ngModel)]="vaga.descricao"><br>
+        </div>
+        <div class="form-group">
+          
+          <input type="text" class="form-control" id="sal" placeholder="Informe o salario:" name="salario"
+            [(ngModel)]="vaga.salario"><br>
+        </div>
+        <button type="submit" class="btn btn-primary" (click)="cadastrar()">Cadastrar Vaga</button>
+
+       
+
+        <button type="submit" class="btn btn-primary" (click)="excluir(vaga.id)">Excluir Vaga</button>
+
+      </form>
+
+
+
+      <div class="row text-center slideanim">

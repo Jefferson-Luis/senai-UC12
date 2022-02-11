@@ -1,0 +1,11 @@
+.container-fluid  {
+    margin-bottom: 00;
+    background-color:cadetblue;
+    z-index: 9999;
+    border: 10;
+    font-size: 15px !important;
+    line-height: 1.428571433 !important;
+    letter-spacing: 10px;
+    border-radius: 10px;
+    font-family: Montserrat, sans-serif;
+  }
